@@ -1,0 +1,48 @@
+body
+{
+    background-color: deeppink;
+    padding: 3em;
+}
+
+#v0 
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+}
+
+#set-height
+{
+    display: block;
+}
+
+section
+{
+    z-index: 1;
+    position: relative;
+}
+
+.content
+{
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    top: 33.3%;  
+}
+
+h1
+{
+    font-size: 3em;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0;
+}
